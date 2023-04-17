@@ -1,0 +1,2232 @@
+/* ========================= MEDIA QUERIES ===================== */
+
+
+@media(max-width: 1600px) {
+  .box.right .text {
+    text-align: left;
+  }
+
+  .box .custom-box .orange {
+    margin: 0px 0px 15px 0px;
+  }
+
+  .box .custom-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .dashboard-box {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .icon-card {
+    margin: 0px 0px 5px 10px;
+  }
+}
+
+@media(max-width: 1300px) {
+
+  #configuration input[type="password"],
+  #configuration input {
+    padding: 0 10px !important;
+  }
+}
+
+@media(max-width: 1280px) {
+  .maain-tabble {
+    overflow-x: auto;
+  }
+}
+
+@media (max-width: 1199px) {
+  .header-navbar .navbar-container ul.nav li > a.nav-link {
+    padding: 15px 10px;
+    margin: 0px 0px 0px 0px;
+}
+a.dropdown-user-link{
+  padding-top: 11px !important;
+}
+
+  .btn-with-filter>.filter-select {
+    margin: 10px 0px 0px 0px;
+  }
+
+  .btn-with-filter>.site-btn {
+    margin: 20px 0px 0px 0px;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .btn-with-filter {
+    flex-direction: column-reverse;
+  }
+
+  .filter-select {
+    width: 100%;
+  }
+
+  .approval-div {
+    flex-direction: column;
+  }
+
+  .approval-btn-div {
+    margin-top: 10px;
+  }
+
+  .approval-info-li {
+    margin-right: 20px;
+  }
+
+  .dashboard .quick-start .left,
+  .dashboard .quick-start .right {
+    margin: 30px 20px 0 20px;
+  }
+
+  .dashboard .quick-start h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .box {
+    padding: 20px;
+  }
+
+  .friendly-bet .text-right label {
+    margin: 20px 0 0 0;
+    text-align: left;
+  }
+
+  .friendly-bet .user-listing-top a+a {
+    margin: 0 0 0 0;
+  }
+
+  .friendly-bet .text-right select {
+    margin: 10px 0 0 0;
+    width: 100%;
+  }
+
+  .user-listing-top a {
+    margin: 0 10px 10px 0;
+  }
+
+  .view-report-top-main button,
+  .view-report-top-main a {
+    margin: 40px 10px 0 0;
+  }
+
+  .chart-main .heading {
+    position: initial;
+    transform: rotate(0deg);
+  }
+
+  .dashboard .chart-box img {
+    width: 100%;
+    margin: 20px 0 0 0;
+  }
+
+  .dashboard .chart-main h4 {
+    margin: 0 0 30px 0;
+    text-align: center;
+    position: initial;
+    transform: rotate(0);
+    width: 100%;
+  }
+
+  .dashboard .box.chart-box h2 {
+    margin: 10px 0 0 0;
+  }
+
+  .dashboard .chart-box.select-chart .d-block {
+    margin: 30px 0 0 0;
+  }
+
+  table.dataTable thead>tr>th.sorting_asc,
+  table.dataTable thead>tr>th.sorting_desc,
+  table.dataTable thead>tr>th.sorting,
+  table.dataTable thead>tr>td.sorting_asc,
+  table.dataTable thead>tr>td.sorting_desc,
+  table.dataTable thead>tr>td.sorting {
+    padding-right: 100px !important;
+  }
+
+  /* .header-navbar .navbar-container ul.nav li a.nav-link-label {
+    padding: 1.7rem 0rem 1rem 0.8rem;
+  } */
+
+  .job-portal .nav.nav-tabs.nav-underline .nav-item a.nav-link {
+    margin: 20px 0 0 20px;
+  }
+
+  .header-navbar .navbar-container ul.nav li .dropdown-toggle::after {
+    margin: 0 0 0 -10px !important;
+  }
+
+  .job-journey .step-main {
+    margin: 0 0 0 0;
+  }
+
+  .step-main::before {
+    left: 37px;
+  }
+
+  .steps li::after {
+    width: 170px;
+  }
+
+  .admin-detail-main {
+    padding: 70px 20px 20px 5px !important;
+    margin: 40px 0 0 0 !important;
+  }
+
+  .admin-detail-main img {
+    height: 242px !important;
+    width: 242px !important;
+    margin: 0 0 40px 0 !important;
+    border: 20px solid #eceaea !important;
+  }
+
+  .tags ul {
+    margin: 65px 0 0 0;
+  }
+
+  .talen-bottom ul li {
+    font-size: 20px !important;
+  }
+
+  .request-right {
+    margin: 60px 0 0 0;
+  }
+
+  .commission input {
+    width: 100% !important;
+  }
+
+  .commission p {
+    float: none !important;
+    margin: 20px 0 0 0 !important;
+  }
+
+  .commission a {
+    top: 32px !important;
+  }
+
+  .operator .box-main h2 {
+    font-size: 30px !important;
+  }
+
+  p.m {
+    margin: 20px 0 0 0px !important;
+  }
+
+  .card.rounded.admin-overview-main h3 {
+    margin: 30px 0 0 0;
+  }
+
+  .overview-card img {
+    display: block;
+    margin: 0 auto;
+    float: none;
+  }
+
+  .register-main {
+    padding: 30px 50px 80px 50px !important;
+  }
+
+  .u-profile button.change-cover {
+    left: 110px !important;
+    right: 0;
+    width: 40px !important;
+    margin: 0 auto 5px auto !important;
+    padding: 7px 0 4px 0px;
+    border: 4px solid white;
+  }
+
+  .overview-card i.fa.fa-building {
+    float: none !important;
+  }
+
+  .overview-card {
+    text-align: center;
+  }
+
+  .overview-card h4 {
+    float: none !important;
+  }
+
+  table#DataTables_Table_0 {
+    display: inline-table;
+  }
+
+  table.table {
+    overflow-x: auto;
+    display: block;
+  }
+
+  .project-detail-right {
+    border-bottom: 1px solid #eee !important;
+    padding: 20px 0px;
+    width: 100%;
+  }
+
+  .service-box {
+    width: 100%;
+    padding: 10px 10px;
+    background: #fff;
+    box-shadow: 0 10px 40px 0 rgba(62, 57, 107, 0.07),
+      0 2px 9px 0 rgba(62, 57, 107, 0.07);
+    border-radius: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .service-box h5 {
+    color: #666666;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 10px 0px;
+    padding: 0px;
+    text-transform: uppercase;
+  }
+
+  .header-navbar .navbar-container ul.nav li a.menu-toggle {
+    margin-top: -1px;
+  }
+
+  .right-discs {
+    width: 93%;
+    float: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+  }
+
+  .disucs-thread-inner-row .name-red {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0px;
+    padding-top: 0px;
+    text-decoration: none;
+    background: #fe5555;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    float: left;
+    padding-top: 2px;
+    margin: 0px 10px 0px 0px;
+  }
+
+  .disucs-thread-inner {
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .disucs-thread-inner-row .name-red {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0px;
+    padding-top: 0px;
+    padding-top: 0px;
+    text-decoration: none;
+    background: #fe5555;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    float: left;
+    padding-top: 2px;
+    margin: 0px 0px 0px 15px;
+  }
+
+}
+
+@media (max-width: 1080px) {
+  .three-btn-div > .site-btn {
+    padding: 10px 24px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .header-navbar .navbar-container ul.nav li a.menu-toggle {
+    margin-top: -1px;
+  }
+
+  .pad-20 {
+    padding: 10px !important;
+  }
+
+  .service-box {
+    width: 100%;
+    padding: 10px 10px;
+    background: #fff;
+    box-shadow: 0 10px 40px 0 rgba(62, 57, 107, 0.07),
+      0 2px 9px 0 rgba(62, 57, 107, 0.07);
+    border-radius: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .service-box h5 {
+    color: #666666;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 10px 0px;
+    padding: 0px;
+    text-transform: uppercase;
+  }
+
+  .vertical-overlay-menu .main-menu .navigation>li>a>i {
+    width: 22px;
+  }
+
+  .login-inner .right {
+    padding: 30px !important;
+  }
+
+  .nav.nav-tabs.nav-underline .nav-item a.nav-link {
+    margin: 10px 15px 0 3px;
+    width: 28.3333%;
+  }
+
+}
+
+@media (min-width: 0px) and (max-width: 991px) {
+  .login-left-col {
+    display: none;
+  }
+  body.vertical-layout.vertical-menu.menu-collapsed .main-menu .navigation>li>a {
+    padding: 20px 0px 20px 20px;
+}
+.login-text{
+  bottom: -15px;
+}
+  .login-right-col.register>.login-right-content {
+    padding: 60px 35px;
+  }
+
+  .directory-page {
+    margin: 0px 0 40px 0;
+    text-align: left;
+  }
+
+  .filter-select {
+    margin: 15px 0 0px 0;
+  }
+
+  .login-right-content {
+    padding: 100px 30px;
+  }
+
+  .country-flag {
+    margin-bottom: 8px;
+  }
+
+  .login-inner .left {
+    display: none;
+  }
+
+  .nav.nav-tabs.nav-underline {
+    margin: 30px 0 0 0;
+  }
+
+  .box img {
+    margin: 0 0 0 10px;
+  }
+
+  body.vertical-layout.vertical-menu.menu-collapsed .main-menu .main-menu-content>span.menu-title,
+  body.vertical-layout.vertical-menu.menu-collapsed .main-menu .main-menu-content a.menu-title {
+    margin: 0px 0 0 0 !important;
+  }
+
+  .job-portal .nav.nav-tabs.nav-underline {
+    margin: 20px 0 30px 0;
+  }
+
+  body .pagination {
+    margin: 10px 0 20px 0 !important;
+  }
+
+  body .pagination a {
+    margin: 0 0 0 0 !important;
+  }
+
+  .user .box h3 {
+    margin: 0 0 0 0;
+  }
+
+  .a-porfile a {
+    width: 90% !important;
+    margin: 15px auto !important;
+  }
+
+  .a-porfile a.yellow {
+    margin: 0 auto 30px auto !important;
+  }
+
+  .step-box {
+    margin: 0 0 20px 0;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .step-box::after {
+    top: -10px;
+    transform: rotate(182deg);
+    left: 13px;
+  }
+
+
+  .steps ul {
+    display: block;
+    justify-content: start;
+  }
+
+  .steps li {
+    margin: 0 auto 50px auto;
+    width: 100%;
+    display: table !important;
+    text-align: center;
+  }
+
+  .active-job .steps p {
+    display: none;
+  }
+
+  .steps li::after {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 1px;
+    height: 50px;
+    top: 45px;
+  }
+
+  .maain-tabble {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .reminder-scroller {
+    padding: 5px 8px;
+}
+
+  .nav-pills.reminder-pills li.nav-item > .nav-link {
+    padding: 0px 10px 13px 10px!important;
+  }
+
+  .header-navbar .navbar-container .show .dropdown-menu {
+    max-height: inherit;
+  }
+
+  .three-btn-div {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .three-btn-div > .site-btn {
+    margin: 0px 0px 10px 0px;
+  }
+
+  .dataTables_filter label:after {
+    right: 20%;
+}
+
+  #configuration div.dataTables_wrapper div.dataTables_filter input {
+    width: 100%;
+  }
+
+  .manage-profile-div {
+    padding: 36px 0px 70px 0px;
+  }
+
+  .site-btn {
+    padding: 7px 27px;
+    font-size: 14px;
+  }
+
+  .add-block-div {
+    justify-content: start;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+
+  
+
+  .login-right-content {
+    padding: 100px 30px;
+  }
+
+  .approval-info .country-flag-sm {
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+
+  .approval-info {
+    flex-direction: column;
+  }
+
+  .approval-info-ul {
+    display: initial;
+  }
+
+  .approval-info-li {
+    margin-right: 0px;
+    text-align: center;
+    width: 49%;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  .accordion-flag-div .country-flag {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 0;
+  }
+
+  .left-then-center,
+  .right-then-center {
+    text-align: center;
+  }
+
+  .site-input.with-icon.copy-input {
+    margin-top: 10px;
+  }
+
+  .input-icon.link {
+    top: 23px;
+  }
+
+  .open-country-div {
+    margin: 0px 0px 40px 0px;
+  }
+
+  .navbar-brand img {
+    width: 160px;
+  }
+
+  .subheading {
+    font-size: 20px;
+  }
+
+  .form-field {
+    margin-bottom: 20px;
+  }
+
+  .two-btn-div {
+    justify-content: center;
+  }
+
+  a.user {
+    align-self: center !important;
+  }
+
+  .header-navbar h2 {
+    display: none;
+  }
+
+  .unassigned-tickets .top select {
+    background-position: 95% !important;
+  }
+
+  .unassigned-tickets .top select {
+    margin: 20px 1px 0 0;
+    width: 47.54%;
+  }
+
+  .login-inner .right {
+    padding: 30px !important;
+  }
+
+  .customer-profile .media {
+    display: block;
+    text-align: center;
+  }
+
+  .customer-profile h3 {
+    margin: 20px 0 0 0;
+  }
+
+  .all-notifications .noti-content {
+    padding: 30px 20px;
+  }
+
+  .all-notifications .notification-title {
+    padding: 20px;
+  }
+
+  .ban-user .user-listing-top select {
+    width: 100%;
+    margin: 0 0 25px 0;
+  }
+
+  .ban-user.user-listing .user-listing-top label {
+    margin: 0 0 10px 0px;
+  }
+
+  .user-listing .user-listing-top label {
+    margin: 30px 10px 0 0;
+  }
+
+  .no-data h4 {
+    font-size: 40px;
+    margin: 80px 0 60px 0;
+  }
+
+  .attached {
+    margin: 0 auto !important;
+  }
+
+  .ban-user .user-listing-top {
+    padding: 0;
+  }
+
+  .user-listing-top select {
+    width: 73%;
+    margin: 0;
+  }
+
+  .ban-user div.dataTables_wrapper div.dataTables_filter input {
+    width: 100% !important;
+    margin: 0 0 0 6px;
+  }
+
+  .nav.nav-tabs.nav-underline .nav-item a.nav-link {
+    margin: 10px 2px;
+    width: 32.33%;
+  }
+
+  body ul.pagination {
+    display: table;
+    margin: 10px auto 20px auto !important;
+  }
+
+  ul.pagination li {
+    display: inline-block;
+  }
+
+  .user-listing-top a {
+    margin: 0 7px 10px 0;
+  }
+
+  .coupon-box {
+    margin: 10px 0 0 10px;
+  }
+
+  .view-pool-bet h1 {
+    padding: 0 0 0 10px;
+  }
+
+  ul.nav.navbar-nav.float-right i {
+    color: #fff;
+  }
+
+  .navbar-nav a.dropdown-item i {
+    color: #999999 !important;
+  }
+
+  .applicant .cv-box {
+    display: block;
+    padding: 20px 20px 70px 20px;
+  }
+
+  .applicant .cv-box img {
+    float: left;
+  }
+
+  .applicant .cv-box i {
+    float: right;
+    margin: 10px 0 0 0;
+  }
+
+  .applicant .cv-box p {
+    float: left;
+    margin: 15px 0 0 10px;
+  }
+
+  .verify-user .maain-tabble {
+    margin: 50px 0 0 0 !important;
+  }
+
+  .vertical-overlay-menu .navbar .navbar-header {
+    width: 100% !important;
+  }
+
+  .header-navbar .navbar-header .open-navbar-container i {
+    color: #000;
+    margin: 20px 10px 0 0;
+  }
+
+  .header-navbar .navbar-container ul.nav li .dropdown-toggle::after {
+    color: white !important;
+  }
+
+  .collage-inner {
+    margin: 0 0 0 0 !important;
+  }
+
+  .collage-inner h2 {
+    margin: 30px 0 0 0 !important;
+  }
+
+  .tags li {
+    margin: 34px 0 30px 0 !important;
+  }
+
+  .tags li+li {
+    margin: 34px 0 30px 10px !important;
+  }
+
+  .tags ul {
+    margin: 0 0 0 0;
+  }
+
+  .modal-inner {
+    padding: 20px !important;
+  }
+
+  .add-operator.view .right-box {
+    margin: 20px 0 0 0 !important;
+  }
+
+  .add-operator.view .right-box-2 {
+    margin: 20px 0 !important;
+  }
+
+  .header-navbar.navbar-with-menu .navbar-container {
+    background: black;
+  }
+
+  i.ft-menu.font-large-1 {
+    float: left;
+    margin: 30px 0 0 10px;
+    color: #000;
+  }
+
+  i.fa.fa-ellipsis-v {
+    float: right;
+    margin: 0 0 0 0;
+  }
+
+  .header-navbar .navbar-header .navbar-brand {
+    top: 29px;
+  }
+
+  #navbar-mobile.navbar-collapse .navbar-nav .dropdown-menu {
+    top: 63px;
+  }
+
+  .card.rounded.admin-overview-main h3 {
+    margin: 30px 0 0 0;
+  }
+
+  .pro-main {
+    padding: 20px 20px 130px 20px !important;
+  }
+
+  .u-c-p.u-profile.a-feedback .profile-frm {
+    padding: 0;
+  }
+
+  .u-c-p.u-profile.a-feedback h1 {
+    margin: 10px 0 40px 0 !important;
+  }
+
+  .invitation-box {
+    padding: 0 10px 10px 0;
+  }
+
+  .invitation-box h3 {
+    text-align: center;
+  }
+
+  .invitation-box img {
+    margin: 0 0 20px 7px;
+  }
+
+  .invitation-box p {
+    text-align: center;
+  }
+
+  .invitation-box .invit-boxs a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .invitation-box .invit-boxs a.active {
+    margin: 20px 0 0 0;
+  }
+
+  .invitation-box img {
+    float: none !important;
+    margin: 0 auto !important;
+    display: block;
+  }
+
+  .dob select {
+    border-radius: 100px !important;
+    border-left: 0 !important;
+    border-right: 0;
+    border-top: 0;
+  }
+
+  .dob {
+    padding: 0 30px 0px 30px;
+  }
+
+  .dob select:focus {
+    border: 0px;
+  }
+
+  select.form-control.two {
+    border-radius: 0 !important;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 0;
+  }
+
+  .dob select.last {
+    border-top: 1px solid #e1e1e1 !important;
+    border-radius: 0 !important;
+  }
+
+  .img-div-inner button {
+    right: 150px !important;
+  }
+
+  .header-navbar .navbar-container ul.nav li a.menu-toggle {
+    margin-top: -1px;
+  }
+
+  .service-box {
+    width: 100%;
+    padding: 10px 10px;
+    background: #fff;
+    box-shadow: 0 10px 40px 0 rgba(62, 57, 107, 0.07),
+      0 2px 9px 0 rgba(62, 57, 107, 0.07);
+    border-radius: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .service-box h5 {
+    color: #666666;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 10px 0px;
+    padding: 0px;
+    text-transform: uppercase;
+  }
+
+  .right-discs {
+    width: 93%;
+    float: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+  }
+
+  .disucs-thread-inner-row .name-red {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0px;
+    padding-top: 0px;
+    text-decoration: none;
+    background: #fe5555;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    float: left;
+    padding-top: 2px;
+    margin: 0px 10px 0px 0px;
+  }
+
+  .disucs-thread-inner {
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .disucs-thread-inner-row .name-red {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0px;
+    padding-top: 0px;
+    padding-top: 0px;
+    text-decoration: none;
+    background: #fe5555;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    float: left;
+    padding-top: 2px;
+    margin: 0px 0px 0px 15px;
+  }
+
+  .pad-20 {
+    padding: 10px !important;
+  }
+
+  .vertical-overlay-menu .main-menu .navigation>li>a>i {
+    width: 22px;
+  }
+
+  .table tbody td {
+    font-size: 12px !important;
+    /* padding: 1.50rem 0.1rem; */
+  }
+
+  .a-porfile.active-job h4 {
+    font-size: 25px;
+  }
+  .login-btn, .site-btn{
+    padding: 10px 0;
+    font-size: 18px;
+  }
+  h2{
+    font-size: 30px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .login-right-col{background-size: 17%;}
+  .dataTables_filter label:after {
+    right: 13%;
+}
+h5 {
+  font-size: 20px !important;
+}
+h6 {
+  font-size: 15px;
+}
+  .navbar-brand img {
+    width: 140px;
+  }
+
+  .three-btn-div {
+    flex-direction: column;
+  }
+
+  /* .three-btn-div>.site-btn {
+    width: 200px;
+  } */
+
+  .three-btn-div>.site-btn:nth-child(2) {
+    margin: 15px 0px;
+  }
+
+  table.settings-table thead th {
+    padding: 5px 15px;
+  }
+
+  .pending-text {
+    font-size: 12px;
+  }
+
+  .accordion-arrow {
+    margin-left: 10px;
+  }
+
+  .accordion-flag-div .country-name {
+    margin-left: 3px;
+    font-size: 14px;
+  }
+
+  div#accordion.site-accordion .card-body {
+    padding: 10px 10px 20px 10px;
+  }
+
+  .approval-div {
+    padding: 15px 20px;
+  }
+
+  .approval-info-li {
+    width: 100%;
+  }
+
+  .accordion-flag-div .country-flag {
+    width: 50px;
+    height: 50px;
+  }
+
+  .approval-count {
+    margin-left: 6px;
+    font-size: 26px;
+  }
+
+  html body .content .content-wrapper {
+    padding: 8rem 1.4rem 1.8rem 1.4rem;
+  }
+
+  .two-btn-div a:first-child {
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+
+  .yellow-btn,
+  .brown-btn {
+    font-size: 13px !important;
+  }
+
+  .yellow-btn.with-icon,
+  .brown-btn.with-icon {
+    padding: 8px 30px 8px 15px;
+  }
+
+  .two-btn-div {
+    margin-top: 15px;
+    flex-direction: column;
+  }
+
+  .two-btn-div.user-profile {
+    align-items: flex-start;
+  }
+
+  .cline-logo {
+    float: none;
+  }
+
+  .unassigned-tickets .top select {
+    margin: 0px 0px 0 0;
+    width: 100%;
+  }
+
+  .modal p {
+    font-size: 16px;
+  }
+
+  .add-new .form-group {
+    margin-bottom: 10px;
+  }
+
+  body .change-password button.view-pass {
+    padding: 0 !important;
+  }
+
+  .all-notifications .noti-content a {
+    margin: 20px 0 0 0;
+    display: inline-block;
+  }
+
+  .assign-order button.search-btn {
+    padding: 0 !important;
+  }
+
+  .add-item .box {
+    padding: 30px;
+  }
+
+  .dashboard .card-dashboard {
+    padding: 30px 20px;
+  }
+
+  .dashboard .box {
+    text-align: center;
+  }
+
+  .report-participant .box .tag h4 {
+    line-height: 20px;
+  }
+
+  .report-participant .box .media {
+    display: block;
+    text-align: center;
+  }
+
+  .report-participant .box img {
+    margin: 0;
+  }
+
+  .report-participant .box .media-body {
+    display: block !important;
+  }
+
+  .report-participant .box h3 {
+    margin: 10px 0 0 0;
+  }
+
+  .report-participant .box .tag {
+    display: inline-block;
+    margin: 10px 0 10px 0;
+  }
+
+  .all-notifications .noti-content .media {
+    display: block;
+    text-align: center;
+  }
+
+  .all-notifications .noti-content i {
+    margin: 0 auto 10px auto !important;
+  }
+
+  .profile-info-main .box h4 {
+    margin: 10px 0 0 0;
+    line-height: 40px;
+  }
+
+  .profile-info-main .box i {
+    margin: 0;
+  }
+
+  .ninetyfive {
+    margin-bottom: 40px;
+  }
+
+  .profile-about-bet .box.yellow-box div+div h5 {
+    display: block;
+  }
+
+  .no-data h4 {
+    font-size: 40px;
+    margin: 40px 0 60px 0;
+  }
+
+  .another-modal.modal.change-password-modal .payment-modal-inner label {
+    text-align: left !important;
+  }
+
+  .friends-main .box-inner h3 {
+    text-align: center;
+  }
+
+  .friends-main .box-content {
+    margin: 60px 0 0 0;
+  }
+
+  .profile-info-main .box.green-box h6 {
+    text-align: center;
+    margin: 0;
+  }
+
+  .profile-about-bet .box h5 {
+    display: inline-block;
+    margin: 0 0 10px 0;
+  }
+
+  .profile-info-main .box.yellow-box,
+  .profile-info-main .box.green-box {
+    padding: 20px 10px;
+  }
+
+  .profile-info-main .box.yellow-box,
+  .profile-info-main .box.green-box {
+    display: block !important;
+    text-align: center;
+  }
+
+  .view-profile .box .rating ul {
+    text-align: center;
+  }
+
+  .view-profile-top .box {
+    display: block !important;
+    text-align: center;
+  }
+
+  .view-profile-top .box h3 {
+    margin: 0;
+    text-align: center;
+  }
+
+  .view-user-timeline.profile-info-main .box.box-2 {
+    padding: 0;
+  }
+
+  .percent-div h2 {
+    margin: 20px 0;
+  }
+
+  .timeline-bottom h6 {
+    margin: 10px 0 0 0;
+  }
+
+  .bet-chart h2 {
+    margin: 20px 0;
+  }
+
+  .timeline-top .media {
+    display: block;
+    text-align: center;
+  }
+
+  .timeline-status label {
+    margin: 20px 0 0 0;
+  }
+
+  .timeline-status {
+    margin: 20px 0;
+    padding: 0 0 0 0;
+  }
+
+  .timeline-bottom a {
+    width: 100%;
+    text-align: center;
+    padding: 13px;
+    margin: 10px 0;
+  }
+
+  .contestt-enteris h4 {
+    margin: 0 10px;
+  }
+
+  .view-pool-bet .report-participant {
+    margin: 0 0 0 0;
+    padding: 0;
+  }
+
+  .view-friendly-bet .view-bet .timeline-top .media {
+    display: block;
+    text-align: center;
+  }
+
+  .view-bet .report-bet-term .box {
+    padding: 0;
+  }
+
+  .timeline-top .media i {
+    margin: 10px 0 0 0;
+  }
+
+  .ban-user .user-listing-top {
+    padding: 10px 0 0 0;
+  }
+
+  .another-modal label:last-child {
+    display: none !important;
+  }
+
+  .another-modal select {
+    width: 100%;
+  }
+
+  .another-modal .payment-modal-inner button {
+    width: 100%;
+    padding: 12px !important;
+  }
+
+  .another-modal.canned-modal input {
+    width: 100%;
+  }
+
+  .another-modal.modal.canned-modal label {
+    margin: 0 0 10px 0;
+  }
+
+  .featured.inner .modal-content {
+    padding: 0 20px 0 20px;
+  }
+
+  .another-modal.canned-modal .payment-modal-inner button {
+    margin: 30px 0 0 0 !important;
+    width: 100%;
+  }
+
+  /* .modal {
+      padding: 0 30px !important;
+    } */
+  .bd-add-canned-modal-lg .justify-content-between {
+    padding: 0;
+    display: block;
+  }
+
+  .another-modal.modal label {
+    display: block;
+    text-align: center !important;
+    margin: 0;
+  }
+
+  .payment-modal-main form {
+    margin: 30px 0 0 0;
+  }
+
+  h1 {
+    margin: 20px 0 20px 0;
+    font-size: 25px;
+  }
+  h2{
+    font-size: 25px !important;
+  }
+
+  h1 a {
+    font-size: 21px;
+  }
+
+  .ban-user.canned .user-listing-top {
+    padding: 0 0 0;
+  }
+
+  .user-listing-top select {
+    min-width: 100%;
+  }
+
+  .user-listing-top a {
+    width: 100%;
+    text-align: center;
+    padding: 17px 10px 16px 10px !important;
+    margin: 0 0 10px 0;
+  }
+
+  .user-listing-top a.green i,
+  .user-listing-top a.red i,
+  .user-listing-top a.yellow i {
+    margin: 0 10px 0 0 !important;
+  }
+
+  .user-listing-top a.red i {
+    margin: 0 10px 0 0;
+  }
+
+  .user-listing-top label {
+    display: block;
+    text-align: left;
+    margin: 20px 0 0 0;
+  }
+
+  .dashboard .activity-log {
+    padding: 40px 10px !important;
+  }
+
+  .dashboard .chart-main {
+    margin: 20px 0 0 0;
+  }
+
+  html body .dashboard .content-wrapper {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .view-profile-top .media {
+    display: block;
+    text-align: center;
+  }
+
+  .view-profile-top img {
+    margin: 0 0 10px 0;
+  }
+
+  .view-profile-top {
+    padding: 0 15px;
+  }
+
+  .profile-info-main {
+    padding: 0 15px;
+  }
+
+  .profile-info-main .box {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .nav.nav-tabs.nav-underline .nav-item a.nav-link {
+    width: auto;
+    min-width: 100%;
+  }
+
+  .bet-chart img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .chart-main .heading {
+    left: 0;
+    text-align: center;
+  }
+
+  .circles {
+    padding: 0 15px;
+  }
+
+  .pool-bet-completed .report-participant {
+    padding: 15px;
+  }
+
+  .view-pool-bet.pool-bet-completed .report-participant.winners {
+    padding: 15px;
+  }
+
+  .pool-bet-completed .timeline-question-main {
+    padding: 15px;
+  }
+
+  .pool-bet-completed .timeline-status {
+    padding: 0 15px;
+  }
+
+  .view-friendly-bet a.yellow {
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+  }
+
+  .view-friendly-bet .profile-info-main.view-bet.timeline {
+    padding: 0 10px 40px 10px;
+  }
+
+  .report-bet-term .bottom-content .media {
+    display: block;
+    text-align: center;
+  }
+
+  .report-bet-term .bottom-content .media img {
+    margin: 0;
+  }
+
+  .report-bet-term .bottom-content li {
+    padding: 20px 0;
+  }
+
+  .report-bet-term .bottom-content p {
+    padding: 0;
+    text-align: center;
+  }
+
+  .report-bet-term .bottom-content h5 {
+    margin: 10px 0 0 0;
+  }
+
+  .report-participant a {
+    width: 100%;
+    margin: 20px 0 10px 0;
+  }
+
+  .profile-div {
+    display: block;
+    text-align: center;
+  }
+
+  .profile-div img,
+  .timeline-top .media img {
+    margin: 0 0 10px 0;
+  }
+
+  .profile-div .media-body .d-flex {
+    display: block !important;
+  }
+
+  .profile-div p {
+    margin: 10px 0 0 0;
+  }
+
+  .report-bet-detail {
+    margin: 10px;
+  }
+
+  .report-bet-term {
+    margin: 40px 10px 0 10px;
+  }
+
+  .report-participant {
+    margin: 10px;
+  }
+
+  .a-porfile form button.yellow,
+  .pur-btn {
+    width: 100%;
+    padding: 20px !important;
+    margin: 0px 0 0 0 !important;
+  }
+
+  .dashboard .activity-log .media {
+    text-align: center;
+    display: block;
+  }
+
+  .dashboard .activity-log .media img {
+    margin: 0 0 10px 0;
+  }
+
+  .dashboard .activity-log h3 {
+    margin: 10px 0 0 0;
+  }
+
+  .dashboard .chart-box.box {
+    min-height: auto;
+    padding: 20px;
+  }
+
+  .dashboard .chart-box.select-chart .d-flex {
+    margin: 10px 0 0 0;
+  }
+
+  .add-operator.quatation .box {
+    margin: 20px !important;
+  }
+
+  .table thead th {
+    padding: 1.5rem 3.1rem 1.5rem 0.9rem !important;
+  }
+
+  .active-job.applicant .media p {
+    text-align: left;
+  }
+
+  .nav.nav-tabs.nav-underline .nav-item a.nav-link {
+    margin: 20px 0 0 0 !important;
+  }
+
+  .nav.nav-tabs.nav-underline {
+    margin: 0 0 0 0;
+  }
+
+  .applicant .cv-box {
+    display: block;
+    padding: 20px 20px 75px 20px;
+  }
+
+  .applicant .cv-box img {
+    float: left;
+  }
+
+  .applicant .cv-box i {
+    float: right;
+    margin: 10px 0 0 0;
+  }
+
+  .applicant .cv-box p {
+    float: left;
+    margin: 15px 0 0 10px;
+  }
+
+  .active-job .card.pro-main {
+    padding: 40px 20px 130px 20px !important;
+  }
+
+  .active-job .media {
+    display: block;
+    text-align: center;
+    margin: 30px 0;
+  }
+
+  .active-job .media img {
+    margin: 0 0 0 0 !important;
+  }
+
+  .active-job .media h2 {
+    margin: 20px 0 0 0;
+    font-size: 25px !important;
+  }
+
+  .add-operator .box {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+
+  .add-operator .box .box-user h3 {
+    margin: 20px 0 0 0 !important;
+  }
+
+  .add-operator .box .box-user h4 {
+    margin: 20px 0 0 0 !important;
+  }
+
+  .add-operator .box .box-user a {
+    margin: 30px 0 0 0 !important;
+  }
+
+  .add-operator .box .box-bottom {
+    padding: 20px 10px !important;
+  }
+
+  .request-content a {
+    margin: 20px auto 0 auto;
+    display: block;
+    float: none !important;
+    text-align: center;
+    font-weight: 600;
+    padding: 12px 0 15px 0 !important;
+  }
+
+  .add-operator-details .add-detail {
+    margin: 30px 0 !important;
+  }
+
+  .add-operator-details h1.pull-left {
+    margin: 10px 0 0 0;
+  }
+
+  .search .pro-main {
+    padding: 20px 20px 130px 20px !important;
+  }
+
+  .search-bar input[type="text"] {
+    width: 200px !important;
+  }
+
+  .img-div-inner button {
+    right: 120px !important;
+    padding: 0 0 0 0px;
+  }
+
+  .u-c-p .col-7 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .admin-overview-main .box {
+    min-height: 180px;
+    margin: 0 0 20px 0;
+  }
+
+  .tab-img {
+    margin: -7px 3px 0 0;
+    display: block;
+    float: left;
+  }
+
+  .green-btn-project {
+    float: right;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    border-radius: 3px;
+    margin: 0px 0 0 0 !important;
+    position: relative;
+  }
+
+  .card-header .green-btn-project {
+    margin: 10px 0 0 0 !important;
+  }
+
+  .form-client-right-span {
+    color: #cccccc;
+    font-size: 13px;
+    float: none;
+    display: block;
+    margin: 5px 0px;
+  }
+
+  .blue-center-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .card-title.pull-left {
+    float: none;
+  }
+
+  .form-group .pull-left {
+    float: none;
+  }
+
+  right-discs {
+    width: 100%;
+    float: left;
+    padding-left: 15px;
+    box-sizing: border-box;
+  }
+
+  .disucs-thread-inner-row .name-red {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0px;
+    padding-top: 0px;
+    text-decoration: none;
+    background: #fe5555;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    float: left;
+    padding-top: 2px;
+    margin: 0px 10px 0px 0px;
+  }
+
+  .disucs-thread-inner {
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .disucs-thread-inner-row .name-red {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0px;
+    padding-top: 0px;
+    padding-top: 0px;
+    text-decoration: none;
+    background: #fe5555;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    float: left;
+    padding-top: 2px;
+    margin: 0px 0px 0px 15px;
+  }
+
+  .pad-20 {
+    padding: 0px !important;
+  }
+
+  .card-body {
+    flex: 1 1 auto;
+  }
+
+  .vertical-overlay-menu .main-menu .navigation>li>a>i {
+    width: 22px;
+  }
+
+  .table tbody td {
+    font-size: 12px !important;
+    padding: 1.4rem 0.1rem 1rem 0.9rem;
+  }
+  .site-select{
+    width: 100% !important;
+  }
+  .notification-text{
+    width: 100% !important;
+  }
+  .notification-text p{
+    font-size: 14px !important;
+  }
+}
+
+@media(max-width: 430px) {
+  .header-navbar .navbar-container .show .dropdown-menu {
+    max-height: 400px;
+  }
+
+  .card-heading {
+    padding: 10px 20px 10px 20px;
+  }
+
+  .card-area {
+    width: 90%;
+  }
+
+  .dataTables_filter label:after {
+    right: -32px;
+}
+
+  .form-heading {
+    font-size: 18px;
+  }
+
+  .card-heading > p {
+    font-size: 16px;
+  }
+
+  .message-thread {
+    width: 100%;
+  }
+
+  .lg-text {
+    font-size: 18px;
+  }
+
+  .appointment-ul li {
+    margin: 0px 0px 12px 22px;
+  }
+
+  .site-ul.appointment-ul {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 37px;
+  }
+
+  .profile-pic {
+    height: 100px;
+    width: 100px;
+  }
+
+  .manage-profile-div>.site-btn {
+    margin: 17px 0px;
+  }
+
+  .manage-profile-div h3 {
+    font-size: 17px;
+  }
+
+  .login-bg {
+    padding: 100px 0px;
+  }
+
+  .login-subheading {
+    margin-bottom: 20px;
+  }
+
+  .directory-page {
+    margin: 0px 0 15px 0;
+  }
+
+  .modal-btn-div>.site-btn:last-child {
+    margin: 13px 0px 0px 0px;
+  }
+
+  .modal-btn-div {
+    flex-direction: column;
+  }
+
+  .modal-btn-div>.site-btn {
+    flex-direction: column;
+  }
+
+  .bottom-btn-div>.site-btn {
+    display: block;
+    width: 160px;
+    text-align: center;
+  }
+
+  .bottom-btn-div>.site-btn:last-child {
+    margin: 17px 0px 0px 0px;
+  }
+
+  .modal-content.site-modal {
+    padding: 35px 20px;
+  }
+
+  li.directory-li a {
+    font-size: 12px;
+  }
+
+  .forgot-link.lg-link {
+    font-size: 17px;
+  }
+
+  .forgot-text {
+    font-size: 14px;
+  }
+
+  .filter-div {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .filter-div>.site-btn:last-child {
+    margin: 15px 0px 0px 0px;
+  }
+
+
+  .add-block-div>.site-btn:last-child {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+
+  .add-block-div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .site-modalheading {
+    font-size: 20px;
+  }
+
+  .site-modal .modal-content {
+    padding: 30px 20px;
+  }
+
+  .login-right-content {
+    padding: 40px 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  .cancel-btn {
+    top: 9px;
+    left: 41%;
+  }
+  .login-right-col.register>.login-right-content {
+    padding: 40px 30px;
+  }
+
+  .subheading {
+    font-size: 17px;
+  }
+
+  .featured.inner .modal-content {
+    padding: 0 0 !important;
+  }
+
+  .login-inner .right {
+    padding: 30px 10px !important;
+  }
+
+  .change-password .payment-modal-main {
+    padding: 20px 0;
+  }
+
+  ol.breadcrumb {
+    float: right !important;
+    width: 100% !important;
+  }
+
+  li.breadcrumb-item a {
+    padding: 0 10px !important;
+    font-size: 12px !important;
+  }
+
+  .breadcrumb-item+.breadcrumb-item::before {
+    padding: 0 0 0 0 !important;
+  }
+
+  li.breadcrumb-item.active {
+    font-size: 12px !important;
+    padding: 0 0 0 0 !important;
+  }
+
+  li.breadcrumb-item.active::before {
+    padding: 0 4px 0 0 !important;
+  }
+
+  .content-header-right.breadcrumbs-right.breadcrumbs-top.col-xl-6.col-12 {
+    padding: 0 !important;
+  }
+
+  li.breadcrumb-item {
+    line-height: 0;
+  }
+
+  .profile-info-main .box {
+    padding: 20px 10px;
+  }
+
+  section.register.loginn button.eye-btn {
+    padding: 0 !important;
+  }
+
+  .contestt-enteris h4 {
+    margin: 0 7px !important;
+  }
+
+  .view-profile-top h3 {
+    margin: 10px 0;
+  }
+
+  .view-profile .box .rating ul {
+    text-align: center;
+    margin: 10px 0 0 0;
+  }
+
+  .profile-about-bet .box h6 {
+    text-align: center;
+    margin: 0;
+  }
+
+  .bet-chart h2 {
+    margin: 20px 0;
+  }
+
+  .view-pool-bet .timeline-question,
+  .timeline-bottom {
+    margin: 30px 0 0 0;
+  }
+
+  .timeline-status label {
+    margin: 20px 0 0 0;
+  }
+
+  .report-participant.winners {
+    margin: 20px 0 0 0 !important;
+  }
+
+  .pool-bet-completed .report-participant {
+    margin: 20px 0 0 0;
+  }
+
+  .profile-info-main .circles .box {
+    padding: 20px 0;
+  }
+
+  .c100.big {
+    font-size: 200px !important;
+  }
+
+  button.close {
+    padding: 0 !important;
+  }
+
+  .report-participant .box .media {
+    display: block;
+    text-align: center;
+  }
+
+  .report-participant .box .media img {
+    margin: 0;
+  }
+
+  .report-participant .box .media-body {
+    display: block !important;
+  }
+
+  .report-participant .box .tag {
+    margin: 0 0 10px 0;
+    display: inline-block;
+  }
+
+  .report-participant .box h3 {
+    margin: 10px 0 10px 0;
+  }
+
+  .dashboard .box .media {
+    text-align: center;
+    display: block;
+  }
+
+  .dashboard .box .media img {
+    margin: 10px 0 0 0;
+  }
+
+  .dashboard .box h2 {
+    margin: 10px 0 0 0;
+  }
+
+  .applicant .cv-box img {
+    float: none !important;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .applicant .cv-box p {
+    float: none !important;
+    text-align: center;
+    margin: 15px 0 0 0 !important;
+  }
+
+  .applicant .cv-box i {
+    float: none !important;
+    margin: 15px auto 0 auto !important;
+    text-align: center;
+    display: block;
+  }
+
+  .applicant .cv-box {
+    padding: 20px !important;
+  }
+
+  h1 {
+    margin: 5px 0 20px 0;
+  }
+
+  h1 a {
+    font-size: 18px;
+    margin: 0 8px 0 0;
+  }
+
+  button {
+    padding: 10px !important;
+    width: 100%;
+  }
+
+  .register-main {
+    padding: 30px 10px 80px 10px !important;
+  }
+
+  .register-main .new-user p:before,
+  .register-main .new-user p:after {
+    width: 32% !important;
+  }
+
+  .admin-detail-main .detail-box {
+    padding: 0 !important;
+  }
+
+  .admin-detail-main img {
+    margin: 0 0 0 0 !important;
+  }
+
+  .admin-detail-main {
+    padding: 30px 10px !important;
+  }
+
+  .collage-inner .detail-box {
+    padding: 0 !important;
+  }
+
+  .detail-box {
+    padding: 90px 20px 20px 20px !important;
+  }
+
+  .talen-bottom ul li {
+    padding: 0 0 0 25px;
+  }
+
+  .talent-box .talen-bottom .col-6 {
+    max-width: 100% !important;
+    flex: 0 0 100%;
+    padding: 0;
+    width: 100% !important;
+  }
+
+  .tags li {
+    width: 100%;
+    margin: 20px 0 0 0 !important;
+    text-align: center;
+  }
+
+  .tags li+li {
+    margin: 20px 0 30px 0 !important;
+  }
+
+  .tags h3 {
+    margin: 0 0 0 0;
+  }
+
+  .tags {
+    margin: 30px 0 0 0;
+  }
+
+  .add-user a.user {
+    padding: 10px 20px !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .below-input-div>.forgot-link {
+    margin: 10px 0px 0px 0px !important;
+  }
+
+  .below-input-div {
+    flex-direction: column;
+  }
+
+  .form-width {
+    width: auto;
+  }
+
+  .add-operator.ads .box .box-user h3 {
+    margin: 20px 0 0 4px !important;
+    font-size: 12px !important;
+  }
+
+  .search-bar {
+    float: none !important;
+  }
+
+  .add-broker.search .col-6 {
+    width: 100% !important;
+    flex: 0 0 100% !important;
+    max-width: 100%;
+  }
+
+  .img-div-inner button {
+    right: 100px !important;
+    bottom: -6px;
+  }
+
+  .dob {
+    padding: 15px 0;
+  }
+
+  .register-main {
+    padding: 30px 10px 80px 10px !important;
+  }
+
+  .register-main .new-user p:before {
+    width: 100px !important;
+    right: 0 !important;
+  }
+
+  .register-main .new-user p:after {
+    width: 100px !important;
+    left: 0 !important;
+  }
+}

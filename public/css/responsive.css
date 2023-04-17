@@ -1,0 +1,76 @@
+@media screen and (max-width: 1700px) {
+}
+@media screen and (max-width: 1200px) {
+    .login-right-col{padding: 183px 50px 263px 50px;}
+    .error{padding: 200px 0;}
+}
+@media screen and (max-width: 991px) {
+    .banner-circle{display: none;}
+    .banner-triangle{display: none;}
+    .inner-img-1{display: none;}
+    .inner-img-2{display: none;}
+    .inner-img-3{display: none;}
+    .inner-img-4{display: none;}
+    .banner{padding: 40px 0; text-align: center;}
+    .user-profile{padding: 40px 0;}
+    .my-trainings select.w-25{width: 50% !important;}
+    .error{padding: 90px 0;}
+    h1{font-size: 57px;}
+    h2{font-size: 40px;}
+    h3{font-size: 35px;}
+    h4{font-size: 32px;}
+    h5{font-size: 29px;}
+    h6{font-size: 26px;}
+    .sm-heading{font-size: 22px;}
+    p{font-size: 17px;}
+    .p-lg{font-size: 19px;}
+}
+@media screen and (max-width: 767px) {
+    .banner{padding: 30px 0; text-align: center;}
+    .user-profile, .my-trainings{padding: 30px 0;}
+    .sm-heading{font-size: 20px;}
+    p{font-size: 16px;}
+    .p-lg{font-size: 17px;}
+    .login-left-col{display: none;}
+    .login-right-col{padding: 100px 50px;}
+    .my-trainings select.w-25{
+        width: 100% !important;
+    }
+    .error{padding: 50px 0;}
+    h1{font-size: 47px;}
+    h2{font-size: 35px;}
+    h3{font-size: 30px;}
+    h4{font-size: 28px;}
+    h5{font-size: 25px;}
+    h6{font-size: 20px;}
+    .dropdown-toggle::after {right: 0;}
+}
+@media screen and (max-width: 576px) {
+    .sm-heading{font-size: 16px;}
+    p{font-size: 14px;}
+    .p-lg{font-size: 15px;}
+    .p-sm{font-size: 13px;}
+    .banner{padding: 30px 0;}
+    .error{padding: 35px 0;}
+    h1{font-size: 32px;}
+    h2{font-size: 26px;}
+    h3{font-size: 24px;}
+    h4{font-size: 21px;}
+    h5{font-size: 19px;}
+    h6{font-size: 18px;}
+}
+@media screen and (max-width: 480px) {
+    .login-right-col{padding: 50px 30px;}
+    header.py-4 a.site-btn{
+        font-size: 12px;
+    }
+    header.py-4 .logo{
+        width: 144px;
+    }
+}
+@media screen and (max-width: 435px) {
+    .user-drop{
+        order: 2;
+        margin: 10px auto;
+    }
+}
